@@ -1,15 +1,26 @@
 {
   "files": {
     "main.css": "/ymci-website/static/css/main.7e38c324.css",
-    "main.js": "/ymci-website/static/js/main.574968c0.js",
+    "main.js": "/ymci-website/static/js/main.46a30db3.js",
     "static/js/453.6514bc36.chunk.js": "/ymci-website/static/js/453.6514bc36.chunk.js",
+    "static/media/meeting.png": "/ymci-website/static/media/meeting.fa19344d34a46ea9ed04.png",
+    "static/media/person.png": "/ymci-website/static/media/person.a9ae4422db7c35135618.png",
+    "static/media/deliverykits.png": "/ymci-website/static/media/deliverykits.ffb925e2075c8acb44f9.png",
+    "static/media/child2.png": "/ymci-website/static/media/child2.a38c524ff224b2ca6d43.png",
+    "static/media/houthis.png": "/ymci-website/static/media/houthis.770d057c8ab8cb441cbb.png",
+    "static/media/logo_no_text.png": "/ymci-website/static/media/logo_no_text.f6bd4bba306732ce7c8f.png",
+    "static/media/child.png": "/ymci-website/static/media/child.1fb2f59e3e63b62f04a9.png",
+    "static/media/medpack.png": "/ymci-website/static/media/medpack.632d1319e8acf168eada.png",
+    "static/media/blanket.png": "/ymci-website/static/media/blanket.4923a060342d7446ce26.png",
+    "static/media/surgeon.png": "/ymci-website/static/media/surgeon.2179dc7de78501f29026.png",
+    "static/media/un.png": "/ymci-website/static/media/un.40b9b15f754c2c1b54f7.png",
     "index.html": "/ymci-website/index.html",
     "main.7e38c324.css.map": "/ymci-website/static/css/main.7e38c324.css.map",
-    "main.574968c0.js.map": "/ymci-website/static/js/main.574968c0.js.map",
+    "main.46a30db3.js.map": "/ymci-website/static/js/main.46a30db3.js.map",
     "453.6514bc36.chunk.js.map": "/ymci-website/static/js/453.6514bc36.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7e38c324.css",
-    "static/js/main.574968c0.js"
+    "static/js/main.46a30db3.js"
   ]
 }
