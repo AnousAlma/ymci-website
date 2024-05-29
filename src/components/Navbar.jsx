@@ -1,23 +1,3 @@
-// import React from 'react'
-// import "./css/navbar.css"
-
-// const Navbar = () => {
-//   return (
-//     <div>
-//         <nav>
-//             <div className="nav-wrapper">
-//                 <a href="home" className="title">Yemen Malnutrition</a>
-//                 <ul className="nav-list">
-
-//                 </ul>
-//             </div>
-//         </nav>
-//     </div>
-//   )
-// }
-
-// export default Navbar
-
 import {
   Box,
   Flex,
@@ -32,7 +12,6 @@ import {
   PopoverTrigger,
   PopoverContent,
   useColorModeValue,
-  useBreakpointValue,
   useDisclosure,
 } from '@chakra-ui/react';
 import {
@@ -43,6 +22,7 @@ import {
 } from '@chakra-ui/icons';
 import { useLocation, useNavigate } from "react-router-dom"
 import { useEffect } from 'react';
+import logo from './pages/images/logo_no_text.png';
 
 export default function WithSubnavigation() {
   const { isOpen, onToggle } = useDisclosure();
@@ -88,7 +68,7 @@ export default function WithSubnavigation() {
         </Flex>
         <Flex flex={{ base: 1 }} justify={{ base: 'right', md: 'start' }}>
           <Image 
-            src="/images/logo_no_text.png"
+            src={logo}
             alt="Yemen Malnutrition Crisis Initiative Logo"
             width="33px"
             height="33px"

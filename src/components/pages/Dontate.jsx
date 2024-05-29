@@ -7,13 +7,14 @@ import {
   Text,
   Stack,
   StackDivider,
-  Icon,
   useColorModeValue,
   Box,
   Button,
 } from '@chakra-ui/react';
-import { ReactElement } from 'react';
-import { useNavigate } from 'react-router-dom';
+import deliveryKit from './images/deliverykits.png';
+import blankets from './images/blanket.png';
+import surgeon from './images/surgeon.png';
+import medpack from './images/medpack.png';
 
 const Feature = ({ text, iconBg, image }) => {
   return (
@@ -38,7 +39,6 @@ const Feature = ({ text, iconBg, image }) => {
 };
 
 export default function Donate() {
-  const navigate = useNavigate()
   return (
     <Container maxW={'5xl'} py={12}>
       <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
@@ -57,22 +57,22 @@ export default function Donate() {
             <Feature
               iconBg={useColorModeValue('yellow.100', 'yellow.900')}
               text={'$50: 2 safe delivery kits'}
-              image="/images/deliverykits.png"
+              image={deliveryKit}
             />
             <Feature
               iconBg={useColorModeValue('green.100', 'green.900')}
               text={'$100: 10 thermal blankets'}
-              image="/images/blanket.png"
+              image={blankets}
             />
             <Feature
               iconBg={useColorModeValue('purple.100', 'purple.900')}
               text={'$175: Send a surgeon to work for a day'}
-              image="/images/surgeon.png"
+              image={surgeon}
             />
             <Feature
               iconBg={useColorModeValue('purple.100', 'purple.900')}
               text={'$525: Send two doctors to work for a day with medpacks'}
-              image="/images/medpack.png"
+              image={medpack}
             />
           </Stack>
         </Stack>

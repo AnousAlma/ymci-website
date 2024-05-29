@@ -5,16 +5,11 @@ import {
   Box,
   Heading,
   Text,
-  Button,
   Image,
-  Icon,
-  IconButton,
-  createIcon,
-  IconProps,
   useColorModeValue,
-  HStack,
   Divider,
 } from '@chakra-ui/react';
+import logo from './images/logo_no_text.png';
 
 export default function Home() {
   return (
@@ -80,7 +75,7 @@ export default function Home() {
               w={'100%'}
               h={'100%'}
               src={
-                "/images/logo_no_text.png"
+                logo
               }
             />
           </Box>
