@@ -51,26 +51,26 @@ export default function Donate() {
             spacing={4}
             divider={
               <StackDivider
-                borderColor={useColorModeValue('gray.100', 'gray.700')}
+                borderColor={useColorModeValue('gray.100', 'gray.100')}
               />
             }>
             <Feature
-              iconBg={useColorModeValue('yellow.100', 'yellow.900')}
+              iconBg={useColorModeValue('yellow.100', 'yellow.100')}
               text={'$50: 2 safe delivery kits'}
               image={deliveryKit}
             />
             <Feature
-              iconBg={useColorModeValue('green.100', 'green.900')}
+              iconBg={useColorModeValue('green.100', 'green.100')}
               text={'$100: 10 thermal blankets'}
               image={blankets}
             />
             <Feature
-              iconBg={useColorModeValue('purple.100', 'purple.900')}
+              iconBg={useColorModeValue('purple.100', 'purple.100')}
               text={'$175: Send a surgeon to work for a day'}
               image={surgeon}
             />
             <Feature
-              iconBg={useColorModeValue('purple.100', 'purple.900')}
+              iconBg={useColorModeValue('yellow.100', 'yellow.100')}
               text={'$525: Send two doctors to work for a day with medpacks'}
               image={medpack}
             />

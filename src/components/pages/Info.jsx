@@ -28,7 +28,7 @@ export default function Info() {
           marginTop={'3rem'}
           fontSize={'7xl'}
           fontWeight={'bold'}
-          color={useColorModeValue('gray.800', 'white')}
+          color={useColorModeValue('gray.800', 'gray.800')}
         >
           Learn More About The Crisis
         </Text>
