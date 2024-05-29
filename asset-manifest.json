@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ymci-website/static/css/main.7e38c324.css",
-    "main.js": "/ymci-website/static/js/main.46a30db3.js",
+    "main.js": "/ymci-website/static/js/main.20f8fa70.js",
     "static/js/453.6514bc36.chunk.js": "/ymci-website/static/js/453.6514bc36.chunk.js",
     "static/media/meeting.png": "/ymci-website/static/media/meeting.fa19344d34a46ea9ed04.png",
     "static/media/person.png": "/ymci-website/static/media/person.a9ae4422db7c35135618.png",
@@ -16,11 +16,11 @@
     "static/media/un.png": "/ymci-website/static/media/un.40b9b15f754c2c1b54f7.png",
     "index.html": "/ymci-website/index.html",
     "main.7e38c324.css.map": "/ymci-website/static/css/main.7e38c324.css.map",
-    "main.46a30db3.js.map": "/ymci-website/static/js/main.46a30db3.js.map",
+    "main.20f8fa70.js.map": "/ymci-website/static/js/main.20f8fa70.js.map",
     "453.6514bc36.chunk.js.map": "/ymci-website/static/js/453.6514bc36.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7e38c324.css",
-    "static/js/main.46a30db3.js"
+    "static/js/main.20f8fa70.js"
   ]
 }
